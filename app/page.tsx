@@ -1,9 +1,8 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <h1 className="text-5xl">Welome! to Next.js</h1>
-    </div>
+    <>
+      <h1 className="text-5xl font-black">Welome! to Next.js</h1>
+      <h1 className="font-space-grotesk text-5xl font-black">Welome! to Next.js</h1>
+    </>
   );
 }
